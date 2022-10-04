@@ -37,3 +37,7 @@ group :test do
 end
 
 gem "active_model_serializers", "~> 0.10.12"
+
+group :production do
+  gem 'rails_12factor'
+end
